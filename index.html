@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>VitaPaso 2.0</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="contenedor">
+
+<h1>VitaPaso 🌱</h1>
+
+<p class="frase">
+Pequeños hábitos crean grandes cambios.
+</p>
+
+<p class="descripcion">
+VitaPaso es una aplicación para desarrollar hábitos saludables
+para el cuerpo, la mente y el crecimiento personal.
+Este proyecto fue desarrollado como <b>proyecto institucional</b>.
+</p>
+
+<hr>
+
+<h2>Perfil del usuario</h2>
+
+<div class="perfil">
+
+<input id="nombre" placeholder="Nombre">
+<input id="edad" placeholder="Edad">
+<input id="peso" placeholder="Peso (kg)">
+<input id="altura" placeholder="Altura (cm)">
+
+<button onclick="guardarPerfil()">Guardar datos</button>
+
+<p id="saludo"></p>
+
+</div>
+
+<hr>
+
+<h2>Hábitos del día</h2>
+
+<div id="listaHabitos" class="habitos"></div>
+
+<hr>
+
+<h2>Progreso diario</h2>
+
+<div class="barraProgreso">
+
+<div id="progreso"></div>
+
+</div>
+
+<p id="textoProgreso"></p>
+
+<hr>
+
+<h2>Rutina personalizada</h2>
+
+<div class="rutina">
+
+<p id="rutinaTexto"></p>
+
+</div>
+
+<hr>
+
+<h2>Estadísticas</h2>
+
+<div class="estadisticas">
+
+<p id="stats"></p>
+
+</div>
+
+<hr>
+
+<h2>Asistente Vita</h2>
+
+<div class="chatBox">
+
+<div id="chat"></div>
+
+<input id="pregunta" placeholder="Escribe tu pregunta">
+
+<button onclick="responder()">Enviar</button>
+
+</div>
+
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
